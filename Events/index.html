@@ -15,10 +15,17 @@
     <h2>Events JavaScript</h2>
     <p id="texto"></p>
     <button ondblclick="eventoDbClick()">Click Here</button>
+    <select id="itens" onchange="mudar()">
+        <option value="1">Valor 1</option>
+        <option value="2">Valor 2</option>
+        <option value="3">Valor 3</option>
+        <option value="4">Valor 4</option>
+    </select>
     <br>
     <br>
-
+    <br>
     <div id="test" style="margin: auto, auto;width: 100%; height: 200px; background: blue;" onmouseover="viraVermelho()" onmouseout="voltarAzul()"></div>
     <script src="index.js"></script>
+    <input type="text" style="padding: 80px; font-size: 40px; margin-top: 40px;" placeholder="Digite alguma coisa" id="campoTexto" onfocus="limpaTexto()" value="Já vem com texto!">
 </body>
 </html>

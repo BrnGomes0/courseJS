@@ -41,3 +41,16 @@ function voltarAzul() {
     let div1 = document.getElementById("test");
     div1.style.backgroundColor = "blue"; 
 }
+
+function adicionaTexto() {
+    let p = document.getElementById("texto");
+    p.append('O mouse moveu<br>');
+}
+
+function limpaTexto() {
+    document.getElementById("campoTexto").value = "";
+}
+
+function mudar () {
+    console.log('Mudou!')
+}
