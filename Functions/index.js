@@ -11,31 +11,31 @@
 
     */
 
-    // // FUNÇÃO DE SOMA
-    // function soma (valor1, valor2) {
-    //     return valor1 + valor2; // Return da função. O que ela irá mandar de resposta
-    // }
-    // // FUNÇÃO DE COTAÇÃO DO DÓLAR
-    // function realParaDolar(real, cotacaoDolar) {
-    //     return real * cotacaoDolar
-    // }
+    // FUNÇÃO DE SOMA
+    function soma (valor1, valor2) {
+        return valor1 + valor2; // Return da função. O que ela irá mandar de resposta
+    }
+    // FUNÇÃO DE COTAÇÃO DO DÓLAR
+    function realParaDolar(real, cotacaoDolar) {
+        return real * cotacaoDolar
+    }
 
-    // var valorReal = 7.89;
-    // var cotacao = 5.08;
+    var valorReal = 7.89;
+    var cotacao = 5.08;
 
-    // console.log(`O valor em Reais é de R$${valorReal}. Em dólar é $${realParaDolar(valorReal, cotacao).toFixed(2)}`);
+    console.log(`O valor em Reais é de R$${valorReal}. Em dólar é $${realParaDolar(valorReal, cotacao).toFixed(2)}`);
 
-// function alertHello() {
-//     alert('Hello Guys!');
-// } Chamando ela no HTML
+function alertHello() {
+    alert('Hello Guys!');
+} // Chamando ela no HTML
 
-// function paraCelsius (valorFahrenheit) {
-//     return (5 / 9) * (valorFahrenheit - 32);
-// }
+function paraCelsius (valorFahrenheit) {
+    return (5 / 9) * (valorFahrenheit - 32);
+}
 
-// var x = paraCelsius(77);
+var x = paraCelsius(77);
 
-// console.log(`A temperatura é de ${x} °C`)
+console.log(`A temperatura é de ${x} °C`)
 
 function minhaFunao () {
     var x = 2; // Essa variável só funciona dentro dessa função (Desse Bloco)
